@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    	  android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button
+	    android:id="@+id/startSearchBtn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="开始搜索" >
+	</Button>
+
+	<ListView android:id="@+id/listViewDevice"
+	    	android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_marginBottom="10dip"
+	          android:layout_marginTop="10dip" ></ListView>
+	<TextView
+	    android:id="@+id/clientServersText"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dip"
+	    android:layout_marginTop="10dip" 
+	    >
+	</TextView>
+
+	<Button
+	    android:id="@+id/selectDeviceBtn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="选择第一个设备" >
+	</Button>
+
+	<EditText
+	    android:id="@+id/clientChatEditText"
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dip"
+	    android:layout_margin="5dip"
+	    android:background="#aaa"
+	    android:cursorVisible="false"
+	    android:editable="false"
+	    android:gravity="top"
+	    android:singleLine="false" >
+	</EditText>
+
+	<EditText
+	    android:id="@+id/clientSendEditText"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	</EditText>
+
+	<Button
+	    android:id="@+id/clientSendMsgBtn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="发送" >
+	</Button>
+
+</LinearLayout>
+</ScrollView>
